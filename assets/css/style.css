@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.divHeader{
+    width: 100%;
+}
+
+.divHeader h1{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.divHeader .header{       
+    background-color: #3368B0;
+    height: 120px;
+    color: #FFCB05;
+}
+
+.styleContenedor{    
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.footer{
+    background-color: #3368B0;
+    color:  black;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    text-align: center;
+}
+
+.paginacion{
+    display: flex;
+    list-style:none;
+    justify-content: center;
+    padding: 10px;
+}
+
+.item{
+    padding: 0 10px;    
+}
+
+.tarjeta{
+    padding: 10px;
+}
+
+.contenedorTexto{
+    background-color: #FFCB05;
+}
