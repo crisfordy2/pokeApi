@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body{
+    background-color: rgb(127, 236, 255);
+}
+
 .divHeader{
     width: 100%;
 }
@@ -20,6 +24,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 .styleContenedor{    
     margin-top: 150px;
     margin-bottom: 50px;
+    padding: 0 100px;     
 }
 
 .footer{

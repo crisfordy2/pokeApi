@@ -30,7 +30,7 @@ const getUrl = (url) => {
 
 // dibujar card de personajes
 const dibujarData = (jsonUrl) => {
-    let html = `<div class= "col-md-3 tarjeta">
+    let html = `<div class="col-md-3 tarjeta">
         <div class="card" style="width: 13rem;">
         <img src="${jsonUrl.sprites.front_default}" class="card-img-top" alt="Img">
         <div class="card-body contenedorTexto">        
